@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url("bg.jpg");
+    background: linear-gradient(pink, white);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -20,6 +20,9 @@ body {
     font-weight: 10px;
     font-size: 40px;
     font-family: 'Lobster', cursive;
+    transition-property: background;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
 }
 
 center {
@@ -27,6 +30,7 @@ center {
 }
 
 .container1 {
+    background: radial-gradial(white, black);
     box-sizing: border-box;
     position: relative;
     top: 80px;
